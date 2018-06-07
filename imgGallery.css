@@ -9,8 +9,10 @@ h2 {
 
 img {
   width: 30%;
+  height: 25vw;
   float: left;
   margin: 1.66%;
+  object-fit: cover;
   border-radius: 8px;
 }
 
@@ -23,8 +25,4 @@ img:hover{
   -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -ms-transition: all .4s ease-in-out;
-}
-
-.heightResize {
-  height: 375.63px;
 }
